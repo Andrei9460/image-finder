@@ -1,11 +1,11 @@
 # image-finder
 поиск копий изображения, 
-
+```
 _ "image/gif"      // для GIF
 _ "image/jpeg"     // для JPEG/jpg
 _ "image/png"      // для PNG
 _ "golang.org/x/image/webp"  // для WebP
-
+```
 CentOS 7 на старом железе может не поддерживать современные инструкции CPU. Соберите с явным указанием минимальной архитектуры:
 ```
 set GOOS=linux
